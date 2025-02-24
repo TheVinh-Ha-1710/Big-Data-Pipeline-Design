@@ -55,21 +55,14 @@ This project designs data pipelines to extract data on famous musical albums, tr
    chmode +x run_pipelines.sh
    ```
 
-## Usage
-
-1. Load and preprocess the dataset.
-2. Perform exploratory data analysis to understand data insights.
-3. Train and evaluate various machine learning models.
-4. Optimize the best-performing model through hyperparameter tuning.
-5. Visualize model performance with accuracy, confusion matrix, and ROC curve.
-
 ## Folder Structure
 
 ```
 📂 Diabetes-Predictive-Model
- ├── 📜 README.md               # Project documentation   
- ├── 📜 diabetes.csv            # Model training script notebook  
- ├── 📜 model_training.ipynb    # Dataset  
- ├── 📜 model_training.pdf      # PDF version of the notebook
- ├── 📜 requirements.txt        # Dependencies    
+ ├── 📂 databases               # Output datasets
+ ├── 📂 pipelines               # Pipeline scripts
+ ├── 📜 README.md               # Project document
+ ├── 📜 Report.pdf              # PDF Report
+ ├── 📜 Song.json               # The original dataset
+ ├── 📜 run_pipelines.sh        # Shell script to run the pipeline
 ```
