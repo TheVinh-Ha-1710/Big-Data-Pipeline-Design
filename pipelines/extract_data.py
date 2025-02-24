@@ -15,7 +15,7 @@ for doc in col.find():
     output.append(triplet)
 
 # Saving output:
-output_path = "Databases/Extracted.txt"
+output_path = "databases/extracted.txt"
 with open(output_path, "w") as file:
     for song in output:
         file.write(song + "\n")
