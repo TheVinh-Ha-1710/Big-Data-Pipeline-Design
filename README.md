@@ -32,8 +32,8 @@ This project designs data pipelines to extract data on famous musical albums, tr
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/TheVinh-Ha-1710/Data-Pipeline.git
-   cd Data-Pipeline
+   git clone https://github.com/TheVinh-Ha-1710/Big-Data-Pipeline-Design.git
+   cd Big-Data-Pipeline-Design
    ```
 
 2. Create and activate a virtual environment (optional but recommended):
@@ -64,5 +64,6 @@ This project designs data pipelines to extract data on famous musical albums, tr
  ├── 📜 README.md               # Project document
  ├── 📜 Report.pdf              # PDF Report
  ├── 📜 Song.json               # The original dataset
+ ├── 📜 requirements.txt        # Required frameworks
  ├── 📜 run_pipelines.sh        # Shell script to run the pipeline
 ```
